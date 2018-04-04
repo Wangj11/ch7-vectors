@@ -2,27 +2,27 @@
 
 # Create a vector `names` that contains your name and the names of 2 people 
 # next to you. Print the vector.
-
+names <- c("Joseph", "Jerry", "Victoria")
 
 # Use the colon operator : to create a vector `n` of numbers from 10:49
-
+n <- c(10:49)
 
 # Use the `length()` function to get the number of elements in `n`
-
+length(n)
 
 # Add 1 to each element in `n` and print the result
-
+n + 1
 
 # Create a vector `m` that contains the numbers 10 to 1 (in that order). 
 # Hint: use the `seq()` function
-
+m <- seq(from = 10, to = 1)
 
 # Subtract `m` FROM `n`. Note the recycling!
-
+n - m
 
 # Use the `seq()` function to produce a range of numbers from -5 to 10 in `0.1`
 # increments. Store it in a variable `x_range`
-
+x_range <- seq(from = 10, to = 1, by = .1)
 
 # Create a vector `sin_wave` by calling the `sin()` function on each element 
 # in `x_range`.
